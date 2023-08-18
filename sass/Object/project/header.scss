@@ -1,0 +1,20 @@
+.p-header{
+    align-content: center;
+    align-items: center;
+    background-color: $black;
+    display: flex;
+    justify-content: space-between;
+    padding: $space_default;
+
+    &__title{
+        color: $white;
+        font-family: 'Rubik Wet Paint', cursive;;
+        margin: 0;
+    }
+
+    &__image{
+        box-shadow: none;
+        height: 38px;
+        width: 38px;    
+    }
+}

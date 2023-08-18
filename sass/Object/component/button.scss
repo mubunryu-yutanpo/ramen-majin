@@ -1,0 +1,11 @@
+.c-button{
+    background-color: $lightblue;
+    border: none;
+    box-shadow: 0 0 5px 0 $gray;
+    cursor: pointer;
+    padding: $space_default $space_20;
+
+    &:hover{
+        background-color: $blue;
+    }
+}

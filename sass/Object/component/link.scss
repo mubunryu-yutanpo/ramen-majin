@@ -1,0 +1,10 @@
+.c-link{
+    color: $blue;
+    cursor: pointer;
+    padding: $space_default $space_10;
+
+    &:hover{
+        color: $red;
+        font-weight: bold;
+    }
+}

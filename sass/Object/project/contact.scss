@@ -1,0 +1,19 @@
+.p-contact{
+
+    &__container{
+        border: 2px solid $blue;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px 0 $blue;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    &__summary{
+        background-color: $gray;
+        border-bottom: 2px solid $blue;
+        margin-bottom: $space_10;
+        padding: $space_default;
+        text-align: center;
+    }
+}

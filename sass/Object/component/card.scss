@@ -1,0 +1,19 @@
+.c-card{
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 $brown;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: $space_default;
+    margin-right: $space_default;
+    min-height: 450px;
+    transform: translateY(3px);
+    transition: all .5s;
+    width: calc(100% / 3 - 15px);
+
+
+    &:hover{
+        transform: translateY(-3px);
+        transition: all .5s;
+    }
+}

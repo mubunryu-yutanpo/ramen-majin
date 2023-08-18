@@ -1,0 +1,14 @@
+.c-section{
+    box-shadow: 0 0 8px 2px $lightblue inset;
+    box-sizing: border-box;
+    padding: $space_30;
+    width: 100%;
+
+    &--bg1{
+        background-color: $lightblue;
+    }
+
+    &--bg2{
+        background-color: $gray;
+    }
+}

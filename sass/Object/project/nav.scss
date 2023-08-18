@@ -1,0 +1,42 @@
+.p-nav{
+    //background-color: $lightblue;
+    background: none;
+    font-family: 'Rubik Wet Paint', cursive;;
+    padding: $space_10 0;
+
+    // SP
+    @include mq(){
+        display: none;
+
+        &.active{
+            background-color: $black;
+            display: block;
+            height: 100vh;
+            left: 0;
+            padding-top: 60px;
+            position: absolute;
+            top: 0;
+            width: 100vw;
+        }
+    }
+
+    &__wrap{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: $space_default;
+
+        @include mq(){
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 0;
+        }
+    }
+
+    &__list{
+        margin: 0 $space_10;
+
+        @include mq(){
+            margin: $space_40 auto;
+        }
+    }
+}

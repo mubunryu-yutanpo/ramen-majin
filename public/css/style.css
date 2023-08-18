@@ -1,0 +1,357 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body, a, button, li, ul, p {
+  border: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ebe7e1;
+  box-sizing: border-box;
+  color: #101010;
+  position: relative;
+}
+
+a, button, input, textarea {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+a {
+  color: #44749d;
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.575rem;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.l-header {
+  height: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.l-footer {
+  width: 100%;
+}
+
+.l-main {
+  box-sizing: border-box;
+  padding: 40px 0 0;
+}
+
+.c-button {
+  background-color: #c6d4e1;
+  border: none;
+  box-shadow: 0 0 5px 0 #ededec;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+.c-button:hover {
+  background-color: #44749d;
+}
+
+.c-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #bdb8ad;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  min-height: 450px;
+  transform: translateY(3px);
+  transition: all 0.5s;
+  width: calc(100% / 3 - 15px);
+}
+.c-card:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s;
+}
+
+.c-container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.c-form {
+  padding: 30px 20px;
+}
+.c-form__wrap {
+  padding: 15px 20px;
+}
+.c-form__label {
+  display: block;
+  margin-bottom: 15px;
+}
+.c-form__input {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 #ededec;
+  font-size: 16px;
+  padding: 15px 5px;
+  width: 100%;
+}
+.c-form__textarea {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 #ededec;
+  font-size: 16px;
+  padding: 15px 5px;
+  resize: none;
+  width: 100%;
+}
+
+.c-image {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #101010;
+}
+
+.c-link {
+  color: #44749d;
+  cursor: pointer;
+  padding: 15px 10px;
+}
+.c-link:hover {
+  color: #FA7070;
+  font-weight: bold;
+}
+
+.c-section {
+  box-shadow: 0 0 8px 2px #c6d4e1 inset;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+}
+.c-section--bg1 {
+  background-color: #c6d4e1;
+}
+.c-section--bg2 {
+  background-color: #ededec;
+}
+
+.c-text {
+  color: #101010;
+  margin-bottom: 15px;
+}
+.c-text--big {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.c-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.p-contact__container {
+  border: 2px solid #44749d;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 #44749d;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+.p-contact__summary {
+  background-color: #ededec;
+  border-bottom: 2px solid #44749d;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.p-footer {
+  background-color: #101010;
+  padding: 15px 10px;
+}
+.p-footer__text {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.p-header {
+  align-content: center;
+  align-items: center;
+  background-color: #101010;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.p-header__title {
+  color: white;
+  font-family: "Rubik Wet Paint", cursive;
+  margin: 0;
+}
+.p-header__image {
+  box-shadow: none;
+  height: 38px;
+  width: 38px;
+}
+
+.p-hero {
+  padding: 0;
+}
+.p-hero__image {
+  border-radius: 0;
+  height: auto;
+  width: 100%;
+}
+
+.p-menu__container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px -15px -15px 15px;
+}
+.p-menu__image {
+  box-shadow: none;
+  height: 300px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.p-menu__name {
+  margin-left: 15px;
+}
+.p-menu__summary {
+  margin-left: 15px;
+  min-height: 75px;
+  word-break: normal;
+}
+.p-menu__price {
+  color: #FA7070;
+  margin: 30px 15px 15px;
+  text-align: right;
+}
+
+.p-nav {
+  background: none;
+  font-family: "Rubik Wet Paint", cursive;
+  padding: 10px 0;
+}
+@media screen and (max-width:767px) {
+  .p-nav {
+    display: none;
+  }
+  .p-nav.active {
+    background-color: #101010;
+    display: block;
+    height: 100vh;
+    left: 0;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+  }
+}
+.p-nav__wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+@media screen and (max-width:767px) {
+  .p-nav__wrap {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
+  }
+}
+.p-nav__list {
+  margin: 0 10px;
+}
+@media screen and (max-width:767px) {
+  .p-nav__list {
+    margin: 40px auto;
+  }
+}
+
+.p-submit {
+  background-color: #44749d;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin: 20px 20px 20px auto;
+}
+.p-submit:hover {
+  background-color: #ededec;
+  color: #44749d;
+}
+
+.p-toggle-button {
+  background: none;
+  display: none;
+  height: 40px;
+  padding: 2px;
+  width: 40px;
+}
+@media screen and (max-width:767px) {
+  .p-toggle-button {
+    box-shadow: none;
+    display: block;
+    z-index: 10;
+  }
+}
+.p-toggle-button__image {
+  height: auto;
+  width: 100%;
+}
+.p-toggle-button__image--open {
+  display: none;
+}
+.p-toggle-button__image--open.on {
+  display: block;
+}
+.p-toggle-button__image--close {
+  display: none;
+}
+.p-toggle-button__image--close.on {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+.p-hero{
+    padding: 0;
+
+    &__image{
+        border-radius: 0;
+        height: auto;
+        width: 100%;
+    }
+}

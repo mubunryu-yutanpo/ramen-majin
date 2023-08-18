@@ -1,0 +1,10 @@
+.c-text{
+    color: $black;
+    margin-bottom: $space_default;
+
+    &--big{
+        font-size: $font-size_l;
+        font-weight: bold;
+    }
+
+}

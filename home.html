@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>HOME</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="l-header">
+        <div class="p-header">
+            <h1 class="c-title p-header__title">RAMEN MAJIN</h1>
+
+            <!-- SP　ハンバーガー -->
+            <button class="c-button p-toggle-button js-toggle-button">
+                <img src="public/images/menu.png" class="c-image p-toggle-button__image p-toggle-button__image--open js-toggle-image on">
+                <img src="public/images/close.png" class="c-image p-toggle-button__image p-toggle-button__image--close js-toggle-image ">
+            </button>
+
+            <!-- NAVメニュー -->
+            <nav class="p-nav js-toggle-nav">
+                <ul class="p-nav__wrap">
+                    <li class="p-nav__list">
+                        <a href="" class="c-link p-nav__link">HOME</a>
+                    </li>
+                    <li class="p-nav__list">
+                        <a href="#news" class="c-link p-nav__link">NEWS</a>
+                    </li>
+                    <li class="p-nav__list">
+                        <a href="#menu" class="c-link p-nav__link">MENU</a>
+                    </li>
+                    <li class="p-nav__list">
+                        <a href="#contact" class="c-link p-nav__link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </div>
+
+    </header>
+
+    <main class="l-main">
+
+        <!-- HERO -->
+        <section class="c-section p-hero">
+            <img src="public/images/img1.jpg" class="c-image p-hero__image">
+        </section>
+
+        <!-- NEWS -->
+        <section id="news" class="c-section c-section--bg1 p-news">
+
+            <div class="c-container">
+
+                <h2 class="c-title p-news__title">NEWS</h2>
+
+                <div class="p-news__container">
+                    <p class="c-text p-news__text">2023.8.15 OPEN!</p>
+                    <p class="c-text p-news__text">2023.8.14 ついにはじまります。</p>
+                    <p class="c-text p-news__text">2023.8.12 ラーメンが続々追加！</p>
+                </div>
+    
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section id="menu" class="c-section c-section--bg2 p-menu">
+            <div class="c-container">
+
+                <h2 class="c-title p-menu__title">MENU</h2>
+
+                <div class="p-menu__container">
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img2.jpg" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">お子様ラーメン</p>
+                        <p class="c-text p-menu__summary">お子様でも食べやすいシンプル・味薄めのラーメン。化学調味料・添加剤等は未使用です。</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 500</p>
+                    </div>
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img3.jpg" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">オリジナル</p>
+                        <p class="c-text p-menu__summary">当店の売れ筋No.1！原点にして頂点のあっさり醤油ラーメン</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 1,000</p>
+                    </div>
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img4.webp" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">九州とんこつ</p>
+                        <p class="c-text p-menu__summary">コテコテが好みならコレ！あんな豚やこんな豚からダシを取ったスープが決め手の一品。</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 1,100</p>
+                    </div>
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img5.jpeg" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">家系スペシャル</p>
+                        <p class="c-text p-menu__summary">家系も食べたい？それならコレしかない！多彩な表情を持つ王道家系ラーメン</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 1,200</p>
+                    </div>
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img6.jpeg" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">実家系リターンズ</p>
+                        <p class="c-text p-menu__summary">たまにふと懐かしくなるあの味を再現した「実家系」のラーメン。</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 1,200</p>
+                    </div>
+    
+                    <div class="c-card p-menu__wrap">
+                        <img src="public/images/img7.webp" class="c-image p-menu__image">
+                        <p class="c-text c-text--big p-menu__name">お泊まり系アフター</p>
+                        <p class="c-text p-menu__summary">お泊まりって楽しいよね！って思い出と青春の甘酸っぱさのハーモニーを感じられる究極の一杯！</p>
+                        <p class="c-text c-text--big p-menu__price">¥ 1,200</p>
+                    </div>
+    
+                </div>    
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="c-section c-section--bg1 p-contact">
+            <div class="c-container">
+                <h2 class="c-title p-contact__title">CONTACT</h2>
+
+                <form action="" method="post" class="c-form p-contact__form">
+                    <div class="p-contact__container">
+    
+                      <p class="p-contact__summary">お問い合わせフォーム</p>
+                      
+                      <div class="c-form__wrap">
+                        <label for="" class="c-form__label">メールアドレス：</label>
+                        <input type="email" class="c-form__input">
+                      </div>
+    
+                      <div class="c-form__wrap">
+                        <label for="" class="c-form__label">電話番号：</label>
+                        <input type="tel" class="c-form__input">
+                      </div>
+    
+                      <div class="c-form__wrap">
+                        <label for="" class="c-form__label">お問い合わせ内容：</label>
+                        <textarea name="" id="" cols="30" rows="10" class="c-form__textarea" placeholder="ここにお問い合わせ内容を書けし"></textarea>
+                      </div>
+
+                    <!-- submit -->
+                    <button class="c-button p-submit">
+                        送信する
+                    </button>
+
+    
+                    </div>
+                </form>    
+            </div>
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <div class="p-footer">
+            <p class="p-footer__text">©️RA-MEN・MAJIN  All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<script src="public/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.p-toggle-button{
+    background: none;
+    display: none;
+    height: 40px;
+    padding: 2px;
+    width: 40px;
+
+    @include mq(){
+        box-shadow: none;
+        display: block;
+        z-index: 10;
+    }
+
+    &__image{
+        height: auto;
+        width: 100%;
+
+        &--open{
+            display: none;
+        }
+    
+        &--open.on{
+            display: block;
+        }
+    
+        &--close{
+            display: none;
+        }
+    
+        &--close.on{
+            display: block;
+        }
+    
+    }
+
+}
